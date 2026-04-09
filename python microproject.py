@@ -2,7 +2,7 @@ import datetime
 
 class Library:
     def __init__(self):
-        # Pre-loading 9 books with different statuses for your demo
+        # Pre-loading 9 books with different status
         self.books = {
             101: {"title": "Python Basics", "author": "John Smith", "status": "Available", "borrower": None, "due_date": None, "issued_by": None},
             102: {"title": "Data Science", "author": "Jane Doe", "status": "Issued", "borrower": "Akshat", "due_date": datetime.date.today() - datetime.timedelta(days=10), "issued_by": "Admin"},
